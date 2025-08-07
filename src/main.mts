@@ -169,7 +169,7 @@ class TagService implements ITagService {
     let allTags: ContractTag[] = [];
     let isMore = true;
 
-    const url = prepareUrl(chainId, apiKey);
+    const url = prepareUrl(apiKey);
 
     while (isMore) {
       try {
